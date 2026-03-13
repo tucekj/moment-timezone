@@ -9,7 +9,7 @@ function staleDataWarning() {
 			(typeof console !==  'undefined') && console.warn) {
 		console.warn(
 			'Deprecation warning: ' +
-			'Moment Timezone has been loaded from a file containing data from 2012 to 2022 only. ' +
+			'Moment Timezone has been loaded from a file containing data from 2024 to 2032 only. ' +
 			'This file is out of date and may be removed in a future release. ' +
 			'Dates and times for the current year might be incorrect.'
 		);
