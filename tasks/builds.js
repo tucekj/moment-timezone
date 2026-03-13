@@ -9,9 +9,9 @@ function staleDataWarning() {
 			(typeof console !==  'undefined') && console.warn) {
 		console.warn(
 			'Deprecation warning: ' +
-			'Moment Timezone has been loaded from a file containing data from 2012 to 2022 only. ' +
-			'This file is out of date and may be removed in a future release. ' +
-			'Dates and times for the current year might be incorrect.'
+			'Moment Timezone has been loaded from a file containing data from 2025 to 2035 only. ' +
+			'Dates and times outside this range will be inaccurate. ' +
+			'Consider using a file with a wider data range.'
 		);
 	}
 }

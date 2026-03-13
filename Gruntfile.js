@@ -18,7 +18,7 @@ module.exports = function(grunt) {
 		build : {
 			'moment-timezone-with-data'               : true,
 			'moment-timezone-with-data-1970-2030'     : [1970, 2030],
-			'moment-timezone-with-data-2024-2032'     : [2024, 2032, 'warn'],
+			'moment-timezone-with-data-2025-2035'     : [2025, 2035, 'warn'],
 			'moment-timezone-with-data-10-year-range' : [currentYear - 5, currentYear + 5]
 		},
 
@@ -28,7 +28,7 @@ module.exports = function(grunt) {
 					'builds/moment-timezone.min.js'                         : 'moment-timezone.js',
 					'builds/moment-timezone-with-data.min.js'               : 'builds/moment-timezone-with-data.js',
 					'builds/moment-timezone-with-data-1970-2030.min.js'     : 'builds/moment-timezone-with-data-1970-2030.js',
-					'builds/moment-timezone-with-data-2024-2032.min.js'     : 'builds/moment-timezone-with-data-2024-2032.js',
+					'builds/moment-timezone-with-data-2025-2035.min.js'     : 'builds/moment-timezone-with-data-2025-2035.js',
 					'builds/moment-timezone-with-data-10-year-range.min.js' : 'builds/moment-timezone-with-data-10-year-range.js'
 				}
 			},
