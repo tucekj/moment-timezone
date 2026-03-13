@@ -10,8 +10,8 @@ function staleDataWarning() {
 		console.warn(
 			'Deprecation warning: ' +
 			'Moment Timezone has been loaded from a file containing data from 2024 to 2032 only. ' +
-			'This file is out of date and may be removed in a future release. ' +
-			'Dates and times for the current year might be incorrect.'
+			'Dates and times outside this range will be inaccurate. ' +
+			'Consider using a file with a wider data range.'
 		);
 	}
 }
